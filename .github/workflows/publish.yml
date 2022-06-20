@@ -17,7 +17,7 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org
       - name: 🚀 publish
-        run: npm version patch && npm publish --access public
+        run: npm publish --access public
         working-directory: package
         env:
           NODE_AUTH_TOKEN: ${{secrets.SVELTE_LION_TOKEN}}
