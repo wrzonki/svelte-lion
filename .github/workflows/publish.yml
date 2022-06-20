@@ -1,5 +1,4 @@
 name: "🚀 publish"
-
 on:
   push:
     branches:
