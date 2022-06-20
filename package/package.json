@@ -1,6 +1,6 @@
 {
   "name": "@wrzonki/svelte-lion",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "exports": {
     "./package.json": "./package.json",
     ".": "./SvelteLion.svelte",
