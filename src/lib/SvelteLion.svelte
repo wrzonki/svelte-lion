@@ -1,1 +1,1 @@
-<h1>Hello SvelteLion</h1>
+<h1>Hello Svelte Lion</h1>
