@@ -1,6 +1,6 @@
 {
 	"name": "@wrzonki/svelte-lion",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
@@ -12,9 +12,9 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
-  "exports": {
-    ".": "./SvelteLion.svelte"
-  },
+	"exports": {
+		".": "./SvelteLion.svelte"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
