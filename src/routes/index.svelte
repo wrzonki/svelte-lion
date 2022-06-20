@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SvelteLion from "src/lib/SvelteLion.svelte";
+  import SvelteLion from "$lib/SvelteLion.svelte";
 </script>
 
 <SvelteLion/>
