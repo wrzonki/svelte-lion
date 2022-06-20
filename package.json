@@ -1,6 +1,6 @@
 {
 	"name": "@wrzonki/svelte-lion",
-	"version": "0.0.5",
+	"version": "0.0.4",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
