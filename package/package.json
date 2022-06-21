@@ -4,7 +4,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": "./SvelteLion.svelte",
-    "./SvelteLion.svelte": "./SvelteLion.svelte"
+    "./Input.svelte": "./Input.svelte"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
