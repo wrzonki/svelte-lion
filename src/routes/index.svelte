@@ -1,6 +1,15 @@
 <script lang="ts">
-  import SvelteLion from "$lib/SvelteLion.svelte";
+  import Input from "$lib/Input.svelte";
+
+  const validate = () => {
+    console.log();
+    console.log('validation');
+    return { error: 'this is an error' };
+  }
+
+  const attributes = {
+    type: 'text',
+  }
 </script>
 
-<SvelteLion/>
-<SvelteLion/>
+<Input {attributes} validation={validate()}/>
