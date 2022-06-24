@@ -16,10 +16,8 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org
-      - name: bump
-        run: npm version patch
-      - name: NPM Publish
-        uses: JS-DevTools/npm-publish@v1
+      - name: 🚀 publish
+        run: npm publish --access public
         working-directory: package
         env:
           NODE_AUTH_TOKEN: ${{secrets.SVELTE_LION_TOKEN}}
