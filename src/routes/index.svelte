@@ -8,8 +8,8 @@
   }
 
   const attributes = {
-    type: 'text',
+    type: 'number',
   }
 </script>
 
-<Input {attributes} validation={validate()}/>
+<Input {attributes}/>
