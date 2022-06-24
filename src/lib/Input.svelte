@@ -7,3 +7,6 @@
   <input { ...attributes } />
   <div class="tooltip">{JSON.stringify(validation)}</div>
 </div>
+
+
+<style></style>
